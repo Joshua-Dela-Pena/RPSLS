@@ -1,0 +1,58 @@
+Before you begin coding, write an algorithm that represents the steps necessary to play a game of rock, paper, scissors, lizard, Spock in a 
+best-of-three format. By writing out the steps, it will make you think about every piece needed to bring the game to life. Please submit to your
+instructor Slack channel once completed for approval to start coding.
+
+Steps;
+1: Display the rules of the game. includes how, and what "RPSLS" beats the other. Display how best-out-of-three works.
+2: Determine the number of human players. Options are Player vs. Player or Player vs. AI.
+3: display that the game is best out of three.
+4: Display the options of what "RPSLS"
+5: Each player has to choose what object to play.
+6: Each play will "shoots" at the same time displaying the chosen object.
+7: If the players play the same object, no one wins and the round re-starts.
+8: For there the be a round winner one player has to play and object that beats the other.
+9: The winner of the round is calculated by what object beats the other object.
+10: The winner of the round gets one win added to the total of wins and the next round starts.
+11: this continues until there is a winner. 
+
+Options:
+rock
+paper
+scissors
+lizard
+Spock
+
+rule: 
+win-         Lose-
+______________________
+Rock crushes Scissors  
+Scissors cuts Paper 
+Paper covers Rock 
+Rock crushes Lizard 
+Lizard poisons Spock 
+Spock smashes Scissors 
+Scissors decapitates Lizard 
+Lizard eats Paper 
+Paper disproves Spock 
+Spock vaporizes Rock  
+
+*DO NO HAVE A GESTURES CLASS*
+
+we need to show the rules (with welcome)
+determine if pvp or pvai
+we need to add players to a game
+we need to define the gestures
+each user has to pick a gesture, or AI needs to do this randomly
+we need to account for bad input for invalad choice
+we need to take both inputs and determine who wins, define ex: does rock beat paper?
+we need to account for a tie
+we need to keep track of wins on each side and compare them to each other
+a winner is defined by best of three. meaning the winner has to have for example 2 of three wins. must win by two.
+display the winner.
+
+classes needed;
+player
+human
+AI
+game play area - this could include most of the above list.
+utilities - opt.
